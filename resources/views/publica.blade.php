@@ -283,19 +283,19 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Por favor introduzca su Nombre.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Dirección email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" placeholder="Dirección email *" required data-validation-required-message="Por favor introduzca su Correo Email.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Teléfono" required data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" id="phone" type="tel" placeholder="Teléfono">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Mensaje *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Mensaje *" required data-validation-required-message="Por favor introduzca su Mensaje."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="text-center" >
