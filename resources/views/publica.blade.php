@@ -48,9 +48,6 @@
               <a class="nav-link js-scroll-trigger" href="#about">Conocenos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Empleo</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
             </li>
             <li class="nav-item">
@@ -80,12 +77,8 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Servicios</h2>
             <h6>Venta y distribución de tostada elaborada con los más altos estándares de calidad.</h6>
-
-            <h3 class="section-subheading text-muted">
-              La mejor tostada hecha en Jalisco, utilizala para darle ese toque especial y crujiente en todos tus platillos, pidelas en tu tienda favorita!
-            </h3>
           </div>
-        </div>
+        </div><br><br>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -260,105 +253,13 @@
     </section>
     <!-- /About -->
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Team -->
-
     <!-- Clients -->
     <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="{{ asset('templates/agencygh/img/logos/elpatron-label.jpg')}}" alt="">
+            <a href="#" >
+              <img class="img-fluid d-block mx-auto pull-right" src="{{ asset('templates/agencygh/img/logos/elpatron-label.jpg')}}" alt="ElPatrón">
             </a>
           </div>
         </div>
@@ -397,18 +298,18 @@
                     <textarea class="form-control" id="message" placeholder="Mensaje *" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
+                  <div class="text-center" >
+                    <div id="success"></div>
+                    <button id="sendMessageButton" class="btn btn-xl" type="submit" style="width: 100%;">Enviar</button>
+                  </div>
                 </div>
                 <div class="col-md-6">
-                  <h3 style="color: #FFFFFF;">Domicilio</h3>
+                  <h3 style="color: #FFFFFF; margin-top: 40px;">Domicilio</h3>
                   <p style="color: #E6E3E3;">Genovevo Rivas Guillén 883, Talpita, 44719 Guadalajara, Jal.</p>
                   <p style="color: #E6E3E3;">Cel. (044) 331-191-1148</p>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14930.671213939471!2d-103.3061036!3d20.6830898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92f6e9a92b548e4d!2sTostadas+El+Patron!5e0!3m2!1ses!2smx!4v1507434584291" width="600" height="368" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
-                </div>
+                
               </div>
             </form>
           </div>
@@ -422,23 +323,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+            <span class="copyright">Copyright &copy; Totasdas "ElPatrón" 2017</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/Distribuidora-Tostadas-El-Patr%C3%B3n-999462836772854/" target="_blank">
                   <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -446,10 +337,7 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="#">Terminos de uso</a>
               </li>
             </ul>
           </div>
