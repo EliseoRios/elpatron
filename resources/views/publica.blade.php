@@ -307,7 +307,7 @@
                   <h3 style="color: #FFFFFF; margin-top: 40px;">Domicilio</h3>
                   <p style="color: #E6E3E3;">Genovevo Rivas Guillén 883, Talpita, 44719 Guadalajara, Jal.</p>
                   <p style="color: #E6E3E3;">Cel. (044) 331-191-1148</p>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14930.671213939471!2d-103.3061036!3d20.6830898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92f6e9a92b548e4d!2sTostadas+El+Patron!5e0!3m2!1ses!2smx!4v1507434584291" width="600" height="368" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14930.671213939471!2d-103.3061036!3d20.6830898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92f6e9a92b548e4d!2sTostadas+El+Patron!5e0!3m2!1ses!2smx!4v1507434584291" width="100%" height="368" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 
               </div>
